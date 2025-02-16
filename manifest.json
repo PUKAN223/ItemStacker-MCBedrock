@@ -1,0 +1,63 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"KisuX3"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.37"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "ItemStacker Addon",
+		"description": "ItemStacker Addon For Minecraft Bedrock",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "280084fd-de23-4c00-93df-db93dcdc9a3b",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "83449654-be92-49b4-8b0c-12828c0c2711",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "8f5e1434-ef97-4137-8cc0-d35797ac6de0",
+			"entry": "scripts/Index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.17.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.4.0-beta"
+		}
+	]
+}
